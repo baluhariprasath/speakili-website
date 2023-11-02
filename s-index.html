@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="site-header">
+    <header class="site-header sticky">
     	<div class="container">
     		<div class="row-header">
     			<div class="col-1-header">
@@ -26,7 +26,7 @@
     						<ul class="main-menu-list">
     							<li class="dropdown-active">
     								<a href="#" id="home-submenu" class="nav-link">About us</a>
-    								<ul class="dropdown-menu">
+    								<ul class="dropdown-menu" aria-labelledby="service-submenu">
     									<li class="dropdown">
     										<a href="#" id="courses-layout-submenu" class="nav-link">About Speakili</a>
     										<ul class="dropdown-menu">
@@ -103,5 +103,37 @@
     		</div>
     	</div>
     </header>
+    <main class="page-content">
+    	<section class="hero-banner style-1">
+    		<div class="container">
+    			<div class="content-wrap">
+    				<div class="row">
+    					<div class="col col-lg-7 ban-our">
+    						<div class="ban-left-col">
+    							<h1 class="banner-h1">The Best Free<br>Online Courses of All Time</h1>
+    							<p class="banner-p">Limited Seats To Ensure Personalized Attention And Optimal
+                                    Learning.</p>
+                                <ul class="banner-button-group unorder-list">
+                                	<li>
+                                		<a class="btn btn-primary" href="#">Explore Courses</a>
+                                	</li>
+                                	<li>
+                                		<a class="text-white popup-video btn btn-primary" href="https://www.youtube.com/watch?v=7e90gBu4pas">Watch video</a>
+                                	</li>
+                                </ul>
+    						</div>
+    					</div>
+    					<div class="col col-lg-5">
+    						<div class="banner-img-1 decoration-wrap">
+    							<div class="image-wrap">
+    								<img src="./Images/girl.png" alt="hero-banner-img">
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+    </main>
 </body>
 </html>
